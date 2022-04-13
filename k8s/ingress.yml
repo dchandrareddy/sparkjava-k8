@@ -5,7 +5,7 @@ metadata:
   namespace: sparkjava
 spec:
   rules:
-  - host: sparkjava.saikrish.xyz
+  - host: sparkjava.hanumanthreddy.xyz
     http:
       paths:
       - path: /sparkjava-hello-world-1.0
