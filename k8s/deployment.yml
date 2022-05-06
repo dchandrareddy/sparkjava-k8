@@ -6,7 +6,7 @@ metadata:
     app: sparkjava
   namespace: sparkjava
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app: sparkjava
@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: sparkjava
-        image: 861531569385.dkr.ecr.us-west-2.amazonaws.com/sparkjava:hello
+        image: 076592739138.dkr.ecr.ap-southeast-1.amazonaws.com/k8-static:number
         ports:
         - containerPort: 8080
