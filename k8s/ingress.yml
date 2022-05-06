@@ -8,7 +8,7 @@ spec:
   - host: sparkjava.awschandra.club
     http:
       paths:
-      - path: /sparkjava-hello-world-1.0
+      - path: /sparkjava-hello-world-1.0/hello
         pathType: Prefix
         backend:
           service:
